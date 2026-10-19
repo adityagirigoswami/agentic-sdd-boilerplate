@@ -1,0 +1,34 @@
+# Secrets & personal config
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+*.pem
+*.key
+*-key.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build / output
+dist/
+build/
+out/
+.next/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

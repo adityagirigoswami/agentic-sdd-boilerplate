@@ -1,0 +1,7 @@
+---
+description: Project operating manual — always apply
+alwaysApply: true
+---
+
+All project instructions live in `AGENTS.md` at the repo root — read it first and follow it exactly.
+Guardrails: `.agents/RULES.md` · Procedures: `.agents/workflows/` and `.agents/skills/` · Docs map: `docs/README.md`.

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "Personal overrides. Copy to .claude/settings.local.json (gitignored). Rules MERGE with settings.json.",
+  "permissions": {
+    "allow": [
+      "Edit(src/**)",
+      "Edit(tests/**)"
+    ]
+  },
+  "env": {
+    "DOCS_GUARD": "1"
+  }
+}
